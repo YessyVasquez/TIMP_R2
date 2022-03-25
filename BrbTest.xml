@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true" >
+
+
+	<test name="Automações 1" >
+		<classes>
+
+			<class name="com.timp.test.BRB.testNg.NovoRelatorio"></class>
+
+		</classes>
+	</test> <!-- PruebaTest -->
+
+</suite> <!-- Suite -->

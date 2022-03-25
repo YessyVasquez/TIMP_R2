@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+
+	<test name=" ATR - ESTRUCTURAS -  RELACIONAMIENTO DE ESTRUCTURAS ">
+
+		<classes>
+
+			<!-- ATR - ESTRUCTURAS - RELACIONAMIENTO  DE ESTRUCTURAS     -->
+			
+				<class name="com.timp.test.ATR.Estruturas.RelacionamentoEstruturas.RelacionamentoEstruturasCriar"></class>
+				<class name="com.timp.test.ATR.Estruturas.RelacionamentoEstruturas.RelacionamentoEstruturasEditar"></class>
+				<class name="com.timp.test.ATR.Estruturas.RelacionamentoEstruturas.RelacionamentoEstruturasVisualizar"></class>
+				<class name="com.timp.test.ATR.Estruturas.RelacionamentoEstruturas.RelacionamentoEstruturasCriarComCopia"></class>
+				<class name="com.timp.test.ATR.Estruturas.RelacionamentoEstruturas.RelacionamentoEstruturasFiltroPorIdMasLimpiarFiltros"></class>
+				<class name="com.timp.test.ATR.Estruturas.RelacionamentoEstruturas.RelacionamentoEstruturasExcluir"></class>
+				<class name="com.timp.test.ATR.Estruturas.RelacionamentoEstruturas.RelacionamentoEstruturasExcluirEmMassa"></class>
+				
+				
+		</classes>
+
+	</test> 
+	
+	<test name=" ATR - TRIBUTOS - AGRUPAMENTO DE TRIBUTOS ">
+
+		<classes>
+
+			<!-- ATR - TRIBUTOS - AGRUPAMENTO DE TRIBUTOS     -->
+			
+			<class name="com.timp.test.ATR.Tributos.AgrupamentoDeTributos.AgrupamentoDeTributosCriar"></class>
+			<class name="com.timp.test.ATR.Tributos.AgrupamentoDeTributos.AgrupamentoDeTributosEditar"></class>
+			<class name="com.timp.test.ATR.Tributos.AgrupamentoDeTributos.AgrupamentoDeTributosDetalhes"></class>
+			<class name="com.timp.test.ATR.Tributos.AgrupamentoDeTributos.AgrupamentoDeTributosVer"></class>
+			<class name="com.timp.test.ATR.Tributos.AgrupamentoDeTributos.AgrupamentoDeTributosCriarComCopia"></class>
+			<class name="com.timp.test.ATR.Tributos.AgrupamentoDeTributos.AgrupamentoDeTributosExcluir"></class>
+			<class name="com.timp.test.ATR.Tributos.AgrupamentoDeTributos.AgrupamentoDeTributosExcluirEmMassa"></class>
+			
+		</classes>
+
+	</test> 
+	
+	
+</suite> <!-- Suite -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+	<test name="ADM - Configuracao - Configuracao de Tributos - Configuracao de Mapeamenteo de Tributos">
+		<classes>
+			<!-- ADM - Configuracao - Configuracao de Tributos - Configuracao de Mapeamenteo de Tributos -->			
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeMapeamentoDeTributo.ConfiguracaoDeMapeamentoDeTributoCriar"></class>
+		</classes>
+	</test> 	 	
+	<test name="ADM - Configuracao - Configuracao de Tributos - Configuracao de Tipo Tributo">
+		<classes>
+			<!-- Configuracao - Configuracao de Tributos - Configuracao de Tipo Tributo -->			
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTipoTributo.ConfiguracaoDeTipoTributoCriar"></class>
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTipoTributo.ConfiguracaoDeTipoTributoEditar"></class>
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTipoTributo.ConfiguracaoDeTipoTributoFiltrosAvancados"></class>
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTipoTributo.ConfiguracaoDeTipoTributoVisualizar"></class>
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTipoTributo.ConfiguracaoDeTipoTributoExcluir"></class>
+		</classes>
+	</test> 	
+	<test name="ADM - Configuracao - Configuracao de Tributos - Configuracao de Tributo">
+		<classes>
+			<!-- Configuracao - Configuracao de Tributos - Configuracao de Tributo -->			
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTributo.ConfiguracaoDeTributoCriar"></class>
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTributo.ConfiguracaoDeTributoEditar"></class>
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTributo.ConfiguracaoDeTributoFiltrosAvançados"></class>
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTributo.ConfiguracaoDeTributoVisualizar"></class>
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTributo.ConfiguracaoDeTributoExcluir"></class>
+		</classes>
+	</test>
+	
+	<test name="ADM - Configuracao - Configuracao de Tributos - Configuracao de Tributo Grupo">
+		<classes>
+			<!-- Configuracao - Configuracao de Tributos - Configuracao de Tributo Grupo -->			
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTributoGrupo.ConfiguracaoDeTributoGrupoCriar"></class>
+			<class name="com.timp.test.ADM.Configuração.ConfiguracaoDeTributos.ConfiguracaoDeTributoGrupo.ConfiguracaoDeTributoGrupoEditar"></class>
+			
+		</classes>
+	</test>
+</suite>

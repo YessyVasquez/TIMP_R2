@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+	
+	<test name="Mapemaneto Contábil Por Correção">
+		<classes>
+		<!--  Parâmetros de Contabilização > Mapemaneto Contábil Por Correção -->
+			
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoContabilCorrecao.MapeamentoContabilCorrecaoCriar"></class>
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoContabilCorrecao.MapeamentoContabilCorrecaoEditar"></class>
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoContabilCorrecao.MapeamentoContabilCorrecaoVisualizar"></class>
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoContabilCorrecao.MapeamentoContabilCorrecaoExcluir"></class>
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoContabilCorrecao.MapeamentoContabilCorrecaoExcluirEmMassa"></class>
+			
+		</classes>
+	</test> 
+	
+	<test name="Mapeamento Substituicao Conta Estoque Cenarios Correcoes">
+		<classes>
+		<!-- ParametrosContabilizacao > Mapeamento Substituicao Conta Estoque Cenarios Correcoes -->
+		
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoSubstituiçãoContaEstoqueCenáriosCorreções.MapeamentoSubstituicaoContaEstoqueCenariosCorrecoesCriar"></class>
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoSubstituiçãoContaEstoqueCenáriosCorreções.MapeamentoSubstituicaoContaEstoqueCenariosCorrecoesEditar"></class>
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoSubstituiçãoContaEstoqueCenáriosCorreções.MapeamentoSubstituicaoContaEstoqueCenariosCorrecoesVisualizar"></class>
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoSubstituiçãoContaEstoqueCenáriosCorreções.MapeamentoSubstituicaoContaEstoqueCenariosCorrecoesDetalhes"></class>
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoSubstituiçãoContaEstoqueCenáriosCorreções.MapeamentoSubstituicaoContaEstoqueCenariosCorrecoesFiltroId"></class>
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoSubstituiçãoContaEstoqueCenáriosCorreções.MapeamentoSubstituicaoContaEstoqueCenariosCorrecoesExcluir"></class>
+			<class name="com.timp.test.MDR.ParametrosContabilizacao.MapeamentoSubstituiçãoContaEstoqueCenáriosCorreções.MapeamentoSubstituicaoContaEstoqueCenariosCorrecoesExcluirEmMassa"></class>
+		
+		</classes>
+	</test> 
+	
+	
+	<test name="RegistroDeExportaçao">
+		<classes>
+		
+		<!--  Registro de Exportação -->
+			
+				<class name="com.timp.test.MDR.RegistroDeExportaçao.RegistroDeExportaçaoCriar"></class>
+				<class name="com.timp.test.MDR.RegistroDeExportaçao.RegistroDeExportaçaoEditar"></class>
+				<class name="com.timp.test.MDR.RegistroDeExportaçao.RegistroDeExportaçaoVisualizar"></class>
+				<class name="com.timp.test.MDR.RegistroDeExportaçao.RegistroDeExportaçaoFiltrosAvançados"></class>
+				<class name="com.timp.test.MDR.RegistroDeExportaçao.RegistroDeExportaçaoExcluir"></class>
+				<class name="com.timp.test.MDR.RegistroDeExportaçao.RegistroDeExportaçaoExcluirMassa"></class>
+		
+		</classes>
+	</test> 
+	
+	<test name="Representantes Legais">
+		<classes>
+		
+		<!--  Representantes Legais-->
+			
+			<class name="com.timp.test.MDR.RepresentanteLegais.RepresentanteLegaisCriar"></class>
+			<class name="com.timp.test.MDR.RepresentanteLegais.RepresentanteLegaisEditar"></class>
+			<class name="com.timp.test.MDR.RepresentanteLegais.RepresentanteLegaisVisualizar"></class>
+			<class name="com.timp.test.MDR.RepresentanteLegais.RepresentantesLegaisDetalhes"></class>
+			<class name="com.timp.test.MDR.RepresentanteLegais.RepresentantesLegaisExcluir"></class>
+
+		
+		</classes>
+	</test> 
+	
+	<test name="Saldo Inicial Diferido">
+		<classes>
+		<!--  Saldo Inicial Diferido -->
+		
+			<class name="com.timp.test.MDR.SaldoInicialDiferido.SaldoInicialDiferidoCriar"></class>
+			<class name="com.timp.test.MDR.SaldoInicialDiferido.SaldoInicialDiferidoEditar"></class>
+			<class name="com.timp.test.MDR.SaldoInicialDiferido.SaldoInicialDiferidoFiltroID"></class>
+			<class name="com.timp.test.MDR.SaldoInicialDiferido.SaldoInicialDiferidoExcluir"></class>
+			<class name="com.timp.test.MDR.SaldoInicialDiferido.SaldoInicialDiferidoExcluirMassa"></class>
+
+		</classes>
+	</test> 
+	
+	<test name=" SCANC > Ajustes Dos Anexos Fiscal">
+		<classes>
+		
+		<!--  SCANC > Ajustes Dos Anexos Fiscal -->
+		
+			<class name="com.timp.test.MDR.SCANC.AjustesDosAnexos.AjustesDosAnexosCriar"></class>
+			<class name="com.timp.test.MDR.SCANC.AjustesDosAnexos.AjustesDosAnexosExcluir"></class>
+			<class name="com.timp.test.MDR.SCANC.AjustesDosAnexos.AjustesDosAnexosExcluirEmMasa"></class>
+		
+		
+		</classes>
+	</test> 
+	
+	<test name="SCANC > Movimento SCANC">
+		<classes>
+		
+		<!--  SCANC > Movimento SCANC -->
+		
+			<class name="com.timp.test.MDR.SCANC.MovimentoSCANC.MovimentoSCANCCriar"></class>
+			<class name="com.timp.test.MDR.SCANC.MovimentoSCANC.MovimentoSCANCEditar"></class>
+			<class name="com.timp.test.MDR.SCANC.MovimentoSCANC.MovimentoSCANCVisualizar"></class>
+			<class name="com.timp.test.MDR.SCANC.MovimentoSCANC.MovimentoSCANCFiltroID"></class>
+			<class name="com.timp.test.MDR.SCANC.MovimentoSCANC.MovimentoSCANCAtualizar"></class>
+			<class name="com.timp.test.MDR.SCANC.MovimentoSCANC.MovimentoSCANCExcluir"></class>
+			<class name="com.timp.test.MDR.SCANC.MovimentoSCANC.MovimentoSCANCExcluirMasas"></class>
+
+		
+		</classes>
+	</test> 
+	
+	<test name="SCANC > OP PropriosRessarcimentos">
+		<classes>
+		<!--  SCANC > OP PropriosRessarcimentos -->
+		
+			<class name="com.timp.test.MDR.SCANC.OPPropiasRessarcimentos.OPPropriosRessarcimentosCriar"></class>
+		
+		
+		</classes>
+	</test> 
+	
+	<test name="SCANC > Productos SCANC">
+		<classes>
+		<!--  SCANC > Productos SCANC -->
+		
+			<class name="com.timp.test.MDR.SCANC.ProdutosSCANC.ProductosSCANCCriar"></class>
+			<class name="com.timp.test.MDR.SCANC.ProdutosSCANC.ProductosSCANCEditar"></class>
+			<class name="com.timp.test.MDR.SCANC.ProdutosSCANC.ProductosSCANCVisualizar"></class>
+			<class name="com.timp.test.MDR.SCANC.ProdutosSCANC.ProdutosSCANCDetalhes"></class>
+			<class name="com.timp.test.MDR.SCANC.ProdutosSCANC.ProductosSCANCExcluir"></class>
+		
+		
+		</classes>
+	</test> 
+	
+	<test name="SCANC > SCANC Distribuidoras">
+		<classes>
+		<!--  SCANC > SCANC Distribuidoras -->
+		
+			<class name="com.timp.test.MDR.SCANC.SCANCDistribuidoras.SCANCDistribuidorasCriar"></class>
+			<class name="com.timp.test.MDR.SCANC.SCANCDistribuidoras.SCANCDistribuidorasEditar"></class>
+			<class name="com.timp.test.MDR.SCANC.SCANCDistribuidoras.SCANCDistribuidorasVisualizar"></class>
+			<class name="com.timp.test.MDR.SCANC.SCANCDistribuidoras.SCANCDistribuidorasDetalhes"></class>
+			<class name="com.timp.test.MDR.SCANC.SCANCDistribuidoras.SCANCDistribuidorasExcluir"></class>
+			<class name="com.timp.test.MDR.SCANC.SCANCDistribuidoras.SCANCDistribuidorasExcluirEmMasa"></class>
+		
+		
+		</classes>
+	</test> 
+	
+	<test name="Sequencia de Acesso ">
+		<classes>
+		
+		<!--  Sequencia de Acesso -->
+			
+			<class name="com.timp.test.MDR.SequenciaAcesso.SequenciaCriar"></class>
+			<class name="com.timp.test.MDR.SequenciaAcesso.SequenciaEditar"></class>
+			<class name="com.timp.test.MDR.SequenciaAcesso.SequenciaVisualizar"></class>
+			<class name="com.timp.test.MDR.SequenciaAcesso.SequenciaFiltros"></class>
+			<class name="com.timp.test.MDR.SequenciaAcesso.SequenciaExcluir"></class>
+		
+		
+		</classes>
+	</test> 
+
+	<test name="Tabelas de Apoio E-Social > Tabela 26 > Motivos Ces Beneficios">
+		<classes>
+		<!--  Tabelas de Apoio E-Social > Tabela 26 > Motivos Ces Beneficios -->
+		
+			<class name="com.timp.test.MDR.TabelasApoioESocial.Tabela26.MotivosCesBeneficiosCriar"></class>
+			<class name="com.timp.test.MDR.TabelasApoioESocial.Tabela26.MotivosCesBeneficiosEditar"></class>
+			<class name="com.timp.test.MDR.TabelasApoioESocial.Tabela26.MotivosCesBeneficiosDetalhes"></class>
+			<class name="com.timp.test.MDR.TabelasApoioESocial.Tabela26.MotivosCesBeneficiosVisualizar"></class>
+			<class name="com.timp.test.MDR.TabelasApoioESocial.Tabela26.MotivosCesBeneficiosExcluir"></class>
+			<class name="com.timp.test.MDR.TabelasApoioESocial.Tabela26.MotivosCesBeneficiosExcluirMassa"></class>
+		
+		</classes>
+	</test> 
+	
+	<test name="TabelasApoioSped > Ajustes e Informação de Valores Provenientes de Documento Fiscal">
+		<classes>
+		<!--  TabelasApoioSped > Ajustes e Informação de Valores Provenientes de Documento Fiscal -->
+		
+			<class name="com.timp.test.MDR.TabelasApoioSped.AjusteEInformaçoesDeValores.AjusteEInformaçoesDeValoresCriar"></class>
+			<class name="com.timp.test.MDR.TabelasApoioSped.AjusteEInformaçoesDeValores.AjusteEInformaçoesDeValoresEditar"></class>
+			<class name="com.timp.test.MDR.TabelasApoioSped.AjusteEInformaçoesDeValores.AjusteEInformaçoesDeValoresDetalhes"></class>
+			<class name="com.timp.test.MDR.TabelasApoioSped.AjusteEInformaçoesDeValores.AjusteEInformaçoesDeValoresVisualizar"></class>
+			<class name="com.timp.test.MDR.TabelasApoioSped.AjusteEInformaçoesDeValores.AjusteEInformaçoesDeValoresExcluir"></class>
+			<class name="com.timp.test.MDR.TabelasApoioSped.AjusteEInformaçoesDeValores.AjusteEInformacoesDeValoresExcluirEmMassa"></class>
+		
+		</classes>
+	</test> 
+	
+	
+</suite> <!-- Suite -->

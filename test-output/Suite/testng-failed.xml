@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" Empresas (failed)">
+    <classes>
+      <class name="com.timp.test.MDR.Empresas.EmpresasFiltros">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="filtros"/>
+        </methods>
+      </class> <!-- com.timp.test.MDR.Empresas.EmpresasFiltros -->
+    </classes>
+  </test> <!--  Empresas (failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+
+<test name="KPI's  Publicos -- Raiz ">	
+		<classes>
+			<!--KPI's  Publicos  -->	
+			<class name="com.timp.test.TDK.Kpis.KpisPublicos.KpisPublicosDetalhes"></class>
+			<class name="com.timp.test.TDK.Kpis.KpisPublicos.KpisPublicosFiltroId"></class>
+			<class name="com.timp.test.TDK.Kpis.KpisPublicos.KpisLixeiraEmMassa"></class>
+			<class name="com.timp.test.TDK.Kpis.KpisPublicos.KpisFiltroPorId"></class>
+			
+			<!--Raiz  -->
+			<class name="com.timp.test.TDK.Kpis.Raiz.KpisRaizFiltroPorId"></class>
+			
+		</classes>
+	</test>
+	
+	<test name="KPI's Primera Parte">	
+		<classes>
+			<class name="com.timp.test.TDK.Kpis.KpisCriar"></class>
+			<class name="com.timp.test.TDK.Kpis.ParâmetrosGerais.KpisCriarCopia"></class>
+			<class name="com.timp.test.TDK.Kpis.MeusRelatoriosKpis.MeusFavoritos.KpisMeusFavoritosFiltroPorID"></class>
+			
+			<!--Tabelas  -->
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisTabelas"></class>
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisTabelasEditar"></class>
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisPúblicosEdiçãoExecutar"></class>
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisEdiçãoTabelasExcluir"></class>
+			
+			<!--Grafico  -->
+			
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisEdicaoGrafico"></class>
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisGraficoEditar"></class>
+			<class name="com.timp.test.TDK.Kpis.ParâmetrosGerais.KpisExecutarAtualizarJutisficativaGravar"></class>
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisGraficoExcluir"></class>
+			
+			<!--Cartao  Indicador  -->
+			
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisCartaoIndicador"></class>
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisCartaoIndicadorEditar"></class>
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisCartaoIndicadorExcluir"></class>
+			
+			<!--Links Rapidos  -->
+			<class name="com.timp.test.TDK.Kpis.Edicao.KipisLinksRapidosMiasExecutar"></class>
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisLinksRapidosEditar"></class>
+			<class name="com.timp.test.TDK.Kpis.Edicao.KpisLinksRapidosExcluir"></class>
+			
+			<!--Lixeira  -->
+			<class name="com.timp.test.TDK.Kpis.ParâmetrosGerais.KpisLixeira"></class>
+			<class name="com.timp.test.TDK.Kpis.Lixeira.LixeiraFiltroPorID"></class>
+			<class name="com.timp.test.TDK.Kpis.Lixeira.KpisLixeiraExcluir"></class>
+			<class name="com.timp.test.TDK.Kpis.Lixeira.KpisLixeiraExcluirEmMassa"></class>
+		</classes>
+	</test>
+	
+
+</suite>

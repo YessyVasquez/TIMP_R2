@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+
+	<test name="Regras de Negocio">
+
+		<classes>
+
+			<!-- BRE - REGRAS DE NEGOCIO -->
+			
+				<class name="com.timp.test.BRE.RegrasDeNegocio.ParametrosGerais.RegrasDeNegocioCriar"></class>
+				<class name="com.timp.test.BRE.RegrasDeNegocio.ParametrosGerais.RegrasDeNegocioEditar"></class>
+				<class name="com.timp.test.BRE.RegrasDeNegocio.ParametrosGerais.RegrasDeNegocioDetalhes"></class>
+				<class name="com.timp.test.BRE.RegrasDeNegocio.ParametrosGerais.RegrasDeNegocioVisualizar"></class>
+				<class name="com.timp.test.BRE.RegrasDeNegocio.ParametrosGerais.RegrasDeNegocioCriarComCopia"></class>
+				
+				<class name="com.timp.test.BRE.RegrasDeNegocio.Edicao.RegradeNegócioEdiçãoValoresCalculados"></class>
+				<class name="com.timp.test.BRE.RegrasDeNegocio.Edicao.RegrasDeNegocioEdicaoRelacionamento"></class>
+				
+				<class name="com.timp.test.BRE.RegrasDeNegocio.ParametrosGerais.RegrasDeNegocioLixeiraEmMassaMaisExcluirEmMassa"></class>
+				<class name="com.timp.test.BRE.RegrasDeNegocio.ParametrosGerais.RegrasdeNegócioExcluirdefinitivamente"></class>
+				<class name="com.timp.test.BRE.RegrasDeNegocio.ParametrosGerais.RegrasdeNegócioLixeiraExcluirdefinitivamenteCriarAbas"></class>
+				
+				<class name="com.timp.test.BRE.TabelasExternas.TabelasExternasEditar"></class>
+				
+				<class name="com.timp.test.BRE.RegrasDeNegocio.BREGerenciarRegulamentosCriarEditarExcluir"></class>
+				
+			</classes>
+
+	</test> 
+	
+</suite> <!-- Suite -->

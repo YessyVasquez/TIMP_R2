@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true" >
+
+	<test name="Agendamento" >
+		<classes>
+			<class name="com.timp.test.TAA.Agendamento.AgendamentoCriar">
+			</class>
+			<class name="com.timp.test.TAA.Agendamento.AgendamentoCopiar">
+			</class>
+			<class name="com.timp.test.TAA.Agendamento.AgendamentoEditar">
+			</class>
+			<class name="com.timp.test.TAA.Agendamento.AgendamentoVer">
+			</class>
+			<class name="com.timp.test.TAA.Agendamento.AgendamentoDetalhes">
+			</class>
+			<class name="com.timp.test.TAA.Agendamento.AgendamentoCancelar">
+			</class>
+			<class name="com.timp.test.TAA.Agendamento.AgendamentoExcluir">
+			</class>
+			
+		</classes>
+	</test> <!-- PruebaTest -->
+
+</suite> <!-- Suite -->

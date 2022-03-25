@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+	<test name="BSC Automacoes">	
+		<classes>
+			<!--  Parametros Gerais -->	
+			<class name="com.timp.test.BSC.FiltroPorIDRegistroCriar"></class>
+			<class name="com.timp.test.BSC.CorreçãodeNFRejeitarEmMassa"></class>
+			<class name="com.timp.test.BSC.CorrecaoDeNFDetalhes"></class>
+			<class name="com.timp.test.BSC.CorreçãodeNFEditar"></class>
+			<class name="com.timp.test.BSC.CorreçãodeNFVisualizar"></class>
+			<class name="com.timp.test.BSC.CorreçãodeNFAprovarS_JOB"></class>
+			<class name="com.timp.test.BSC.CorreçãodeNFAprovarC_JOB"></class>
+			<class name="com.timp.test.BSC.CorrecaoDeNFAprovarEmMassaCJOB"></class>
+			<class name="com.timp.test.BSC.CorreçãodeNFRejeitar"></class>
+			<class name="com.timp.test.BSC.CorreçãodeNFVisualizarHistorico"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+	<test name="AcessarBRB">
+		<classes>
+			<!-- Acessar BRB -->
+			<class name="com.timp.test.BRB.AcessarBRB"></class>
+		</classes>
+	</test>
+	<test name="Paginacao">
+		<classes>
+			<!-- Paginação -->
+			<class name="com.timp.test.BRB.Paginacao"></class>
+		</classes>
+	</test>
+	<test name="FiltrosAvancados">
+		<classes>
+			<!-- Filtros Avançados -->
+			<class name="com.timp.test.BRB.FiltrosAvancados"></class>
+		</classes>
+	</test>
+	<test name="NovoRelatorio">
+		<classes>
+			<!-- Novo Relatório -->
+			<class name="com.timp.test.BRB.NovoRelatorio"></class>
+		</classes>
+	</test>
+
+	<test name="AdicionarColunas">
+		<classes>
+			<!-- Adicionar Colunas -->
+			<class name="com.timp.test.BRB.AdicionarColunas"></class>
+		</classes>
+	</test>
+	<test name="PublicoEPrivado">
+		<classes>
+			<!-- Público e Privado -->
+			<class name="com.timp.test.BRB.PublicoEPrivado"></class>
+		</classes>
+	</test>
+	<test name="ExcluirColuna">
+		<classes>
+			<!-- Excluir Coluna -->
+			<class name="com.timp.test.BRB.ExcluirColuna"></class>
+		</classes>
+	</test>
+	<test name="EditarRelatorio">
+		<classes>
+			<!-- Editar Relatório -->
+			<class name="com.timp.test.BRB.EditarRelatorio"></class>
+		</classes>
+	</test>
+	<test name="ReordenarColuna">
+		<classes>
+			<!-- Reordenar Coluna -->
+			<class name="com.timp.test.BRB.ReordenarColuna"></class>
+		</classes>
+	</test>
+	<test name="FiltrosRelatorio">
+		<classes>
+			<!-- Filtros No Relatório -->
+			<class name="com.timp.test.BRB.FiltrosRelatorio"></class>
+		</classes>
+	</test>
+	<test name="CriarComCopia">
+		<classes>
+			<!-- Criar Com Cópia -->
+			<class name="com.timp.test.BRB.CriarComCopia"></class>
+		</classes>
+	</test>
+	<test name="AtivarCorrecao">
+		<classes>
+			<!-- Ativar Correção -->
+			<class name="com.timp.test.BRB.AtivarCorrecao"></class>
+		</classes>
+	</test>
+	<test name="AtivarComentario">
+		<classes>
+			<!-- Ativar Comentário -->
+			<class name="com.timp.test.BRB.AtivarComentario"></class>
+		</classes>
+	</test>
+	<test name="RenomearColuna">
+		<classes>
+			<!-- Renomear Coluna -->
+			<class name="com.timp.test.BRB.RenomearColuna"></class>
+		</classes>
+	</test>
+	<test name="Formula">
+		<classes>
+			<!-- Fórmula -->
+			<class name="com.timp.test.BRB.Formula"></class>
+		</classes>
+	</test>
+	<test name="AgrupadoPeloCampo">
+		<classes>
+			<!-- Agrupado Pelo Campo -->
+			<class name="com.timp.test.BRB.AgrupadoPeloCampo"></class>
+		</classes>
+	</test>
+	
+	<test name="CampoOutput">
+		<classes>
+			<!-- Campo Output -->
+			<class name="com.timp.test.BRB.CampoOutput"></class>
+		</classes>
+	</test>
+	<test name="FormatacaoEVariante">
+		<classes>
+			<!-- Formatação E Variante -->
+			<class name="com.timp.test.BRB.FormatacaoEVariante"></class>
+		</classes>
+	</test>
+	<test name="FiltroColunas">
+		<classes>
+			<!-- Filtro Nas Colunas -->
+			<class name="com.timp.test.BRB.FiltroColunas"></class>
+		</classes>
+	</test>
+	<test name="GruposAvancados">
+		<classes>
+			<!-- Grupos Avançados -->
+			<class name="com.timp.test.BRB.GruposAvancados"></class>
+		</classes>
+	</test>
+	<test name="CrescenteEDecrescente">
+		<classes>
+			<!-- Crescente e Decrescente -->
+			<class name="com.timp.test.BRB.CrescenteEDecrescente"></class>
+		</classes>
+	</test>
+	<test name="ComentarioListaSuspensa">
+		<classes>
+			<!-- Comentário Em Lista Suspensa -->
+			<class name="com.timp.test.BRB.ComentarioListaSuspensa"></class>
+		</classes>
+	</test>
+	<test name="ComentarioLibre">
+		<classes>
+			<!-- Comentário Libre -->
+			<class name="com.timp.test.BRB.ComentarioLibre"></class>
+		</classes>
+	</test>
+	<test name="Visualizar">
+		<classes>
+			<!-- Visualizar -->
+			<class name="com.timp.test.BRB.Visualizar"></class>
+		</classes>
+	</test>
+	<test name="ExcluirRelatorio">
+		<classes>
+			<!-- Excluir Relatório -->
+			<class name="com.timp.test.BRB.ExcluirRelatorio"></class>
+		</classes>
+	</test>
+	<test name="Output Automatico">
+		<classes>
+			<class name="com.timp.test.BRB.OutputAutomático"></class>
+		</classes>
+	</test>
+	<test name="Output Referencia">
+		<classes>
+			<class name="com.timp.test.BRB.OutputdeReferência"></class>
+		</classes>
+	</test>
+	<test name="Atribucao De Regra (Regra)">  <!-- TSTNG-2374 -->
+		<classes>
+			<class name="com.timp.test.BRB.AtribuiçãodeRegra"></class>
+		</classes>
+	</test>
+
+	
+</suite> <!-- Suite -->

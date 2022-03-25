@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+
+	<test name="Código da Receita">
+
+
+		<classes>
+
+			<class
+				name="com.timp.test.MDR.CodigoReceita.CodigoReceitaCriar"></class>
+
+			<class
+				name="com.timp.test.MDR.CodigoReceita.CodigoReceitaEditar"></class>
+
+			<class
+				name="com.timp.test.MDR.CodigoReceita.CodigoReceitaDetalhes"></class>
+
+			<class
+				name="com.timp.test.MDR.CodigoReceita.CodigoReceitaVisualizar"></class>
+
+			<class
+				name="com.timp.test.MDR.CodigoReceita.CodigoReceitaExcluir"></class>
+
+			<class
+				name="com.timp.test.MDR.CodigoReceita.CodigoReceitaExcluirEmMassa"></class>
+
+			<class
+				name="com.timp.test.MDR.CodigoReceita.CodigoReceitaFiltrosAvan"></class>
+
+
+		</classes>
+
+
+
+	</test> <!-- PruebaTestNG -->
+
+
+	<test name="Configuração do Fundo Social">
+
+		<classes>
+
+
+			<class
+				name="com.timp.test.MDR.ConfiguracoesFundoSocial.ConfiguracaoFundoSocailCriar"></class>
+
+			<class
+				name="com.timp.test.MDR.ConfiguracoesFundoSocial.ConfiguracoesFundoSocialEditar"></class>
+
+			<class
+				name="com.timp.test.MDR.ConfiguracoesFundoSocial.ConfiguracoesFundoSocialExcluir"></class>
+
+			<class
+				name="com.timp.test.MDR.ConfiguracoesFundoSocial.ConfiguracoesDeFundoSocialExcluirEmMassa"></class>
+
+			<class
+				name="com.timp.test.MDR.ConfiguracoesFundoSocial.ConfiguracaoFundoSocailFiltroId"></class>
+
+
+		</classes>
+
+
+	</test>
+
+
+
+
+	<test name="Contrato IOF">
+
+		<classes>
+
+			<class name="com.timp.test.MDR.ContratoIOF.ContratoIOFCriar"></class>
+
+			<class name="com.timp.test.MDR.ContratoIOF.ContratoIOFEditar"></class>
+
+			<class name="com.timp.test.MDR.ContratoIOF.ContratoIOFDetalhes"></class>
+
+			<class
+				name="com.timp.test.MDR.ContratoIOF.ContratoIOFVisualizar"></class>
+
+			<class name="com.timp.test.MDR.ContratoIOF.ContratoIOFExcluir"></class>
+
+
+		</classes>
+
+
+	</test>
+
+	<test name="Controle De crédito Tributario > Código Crédito">
+
+		<classes>
+
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.CodigosDeCredito.CodigosDeCreditoCriar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.CodigosDeCredito.CodigosDeCreditoEditar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.CodigosDeCredito.CodigosDeCreditoVisualizar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.CodigosDeCredito.CodigosDeCreditoDetalhes"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.CodigosDeCredito.CodigosDeCreditoExcluir"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.CodigosDeCredito.CodigosDeCreditoExcluirEmMassa"></class>
+
+		</classes>
+
+
+	</test>
+
+
+	<test
+		name="ControleDeCreditoTributario > Limite De Credito A Utilizar">
+
+		<classes>
+
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.LimiteDeCreditoAUtilizar.LimiteDeCreditoAUtilizarCriar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.LimiteDeCreditoAUtilizar.LimiteDeCreditoAUtilizarEditar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.LimiteDeCreditoAUtilizar.LimiteDeCreditoAUtilizarVisualizar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.LimiteDeCreditoAUtilizar.LimiteDeCreditoAUtilizarDetalhes"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.LimiteDeCreditoAUtilizar.LimiteDeCreditoAUtilizarExcluir"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.LimiteDeCreditoAUtilizar.LimiteDeCreditoAUtilizarFiltroId"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.LimiteDeCreditoAUtilizar.LimiteDeCreditoAUtilizarExcluirEmMassa"></class>
+
+		</classes>
+
+
+	</test>
+
+
+
+
+	<test
+		name="Controle De Credito Tributario > Utilizacao Dos Creditos Em Periodo Anterior">
+
+		<classes>
+
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosEmPeriodoAnterior.UtilizacaoDosCreditosEmPeriodoAnteriorCriar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosEmPeriodoAnterior.UtilizacaoDosCreditosEmPeriodoAnteriorEditar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosEmPeriodoAnterior.UtilizacaoDosCreditosEmPeriodoAnteriorDetalhes"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosEmPeriodoAnterior.UtilizacaoDosCreditosEmPeriodoAnteriorVisualizar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosEmPeriodoAnterior.UtilizacaoDosCreditosEmPeriodoAnteriorExcluir"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosEmPeriodoAnterior.UtilizacaoDosCreditosEmPeriodoAnteriorExcluirEmMassa"></class>
+
+
+
+
+		</classes>
+
+
+	</test>
+
+
+
+	<test
+		name="Controle De Credito Tributario > Utilizacao Dos Creditos Na Apuração">
+
+		<classes>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosNaApuracao.UtilizacaoDosCreditosNaApuracaoCriar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosNaApuracao.UtilizacaoDosCreditosNaApuracaoEditar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosNaApuracao.UtilizacaoDosCreditosNaApuracaoDetalhes"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosNaApuracao.UtilizacaoDosCreditosNaApuracaoVisualizar"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosNaApuracao.UtilizacaoDosCreditosNaApuracaoExcluir"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosNaApuracao.UtilizacaoDosCreditosNaApuracaoExcluirEmMassa"></class>
+
+			<class
+				name="com.timp.test.MDR.ControleDeCreditoTributario.UtilizacaoDosCreditosNaApuracao.UtilizacaoDosCreditosNaApuracaoFiltroId"></class>
+
+
+
+
+
+		</classes>
+
+
+	</test>
+
+
+
+
+	<test name="SPCB - Federais Retidos">
+
+		<classes>
+
+			<class
+				name="com.timp.test.MDR.SPCBFederaisRetidos.SPCBFederaisRetidosCriar"></class>
+
+			<class
+				name="com.timp.test.MDR.SPCBFederaisRetidos.SPCBFederaisRetidosEditar"></class>
+
+			<class
+				name="com.timp.test.MDR.SPCBFederaisRetidos.SPCBFederaisRetidosDetalhes"></class>
+
+			<class
+				name="com.timp.test.MDR.SPCBFederaisRetidos.SPCBFederaisRetidosVisualizar"></class>
+
+			<class
+				name="com.timp.test.MDR.SPCBFederaisRetidos.SPCBFederaisRetidosExcluir"></class>
+
+			<class
+				name="com.timp.test.MDR.SPCBFederaisRetidos.SPCBFederaisRetidosExcluirMassa"></class>
+
+
+		</classes>
+
+
+	</test>
+
+
+
+
+	<test name="Notas a Declarar Anexo III DIA-AM">
+
+		<classes>
+
+
+			<class
+				name="com.timp.test.MDR.NotasDeclararAnexoIIIDIAAM.NotasDeclararAnexoIIICriar"></class>
+
+			<class
+				name="com.timp.test.MDR.NotasDeclararAnexoIIIDIAAM.NotasDeclararAnexoIIIEditar"></class>
+
+			<class
+				name="com.timp.test.MDR.NotasDeclararAnexoIIIDIAAM.NotasDeclararAnexoIIIDetalhe"></class>
+
+			<class
+				name="com.timp.test.MDR.NotasDeclararAnexoIIIDIAAM.NotasDeclararAnexoIIIExcluir"></class>
+
+			<class
+				name="com.timp.test.MDR.NotasDeclararAnexoIIIDIAAM.NotasDeclararAnexoIIIExcluirMassa"></class>
+
+
+		</classes>
+
+
+	</test>
+
+
+
+</suite> <!-- Suite -->

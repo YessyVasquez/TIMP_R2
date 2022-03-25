@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+
+	<test name="Determinação de Relevância de Tarefa por Motivo de Reabertura > Regra de Reabertura">
+
+		<classes>
+
+			<!-- Determinação de Relevância de Tarefa por Motivo de Reabertura > Regra de Reabertura -->
+			
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.RegraDeReabertura.RegraDeReaberturaCriar"></class>
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.RegraDeReabertura.RegraDeReaberturaEditar"></class>
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.RegraDeReabertura.RegraDeReaberturaDetalle"></class>
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.RegraDeReabertura.RegraDeReaberturaVisualizar"></class>
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.RegraDeReabertura.RegraDeReaberturaExcluir"></class>
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.RegraDeReabertura.RegraDeReaberturaExcluirMassa"></class>
+			
+			</classes>
+
+	</test> 
+	
+	<test name="Cadastro Específico do INSS (CEI) >	Cadastro de Obras">
+
+		<classes>
+	
+			<!-- Cadastro Específico do INSS (CEI) >	Cadastro de Obras -->
+			
+				<class name="com.timp.test.MDR.CadastroEspecificoDoINNSS.CadastroDeObras.CadastroDeObrasCriar"></class>
+				<class name="com.timp.test.MDR.CadastroEspecificoDoINNSS.CadastroDeObras.CadastroDeObrasEditar"></class>
+				<class name="com.timp.test.MDR.CadastroEspecificoDoINNSS.CadastroDeObras.CadastroDeObrasExcluir"></class>
+				<class name="com.timp.test.MDR.CadastroEspecificoDoINNSS.CadastroDeObras.CadastroDeObrasExcluirEmMassa"></class>
+			
+			</classes>
+
+	</test> 
+	
+	<test name="Evento Social > s2230  Afastamento Temporário">
+
+		<classes>
+			<!-- Evento Social > s2230  Afastamento Temporário -->
+			
+				<class name="com.timp.test.MDR.EventosESocial.S2230AfastamentoTemporário.S2230AfastamentoTemporárioFiltroId"></class>
+		</classes>
+
+	</test> 
+	
+	<test name="Cadastros IRPJ/CSLL > Cadastro Contas Contábeis">
+
+		<classes>
+			<!-- Cadastros IRPJ/CSLL > Cadastro Contas Contábeis -->
+			
+				<class name="com.timp.test.MDR.CadastrosIRPJCSLL.CadastroContaisContabeis.CadastroContaisContabeisFiltroID"></class>
+		</classes>
+
+	</test> 
+	
+	<test name="Cadastros IRPJ/CSLL > DE-PARA Contas Contábeis">
+
+		<classes>
+		
+			<!--  Cadastros IRPJ/CSLL > DE-PARA Contas Contábeis -->
+			
+				<class name="com.timp.test.MDR.CadastrosIRPJCSLL.DEPARAContasContábeis.DEPARAContasContábeisCriar"></class>
+				<class name="com.timp.test.MDR.CadastrosIRPJCSLL.DEPARAContasContábeis.DEPARAContasContábeisEditar"></class>
+				<class name="com.timp.test.MDR.CadastrosIRPJCSLL.DEPARAContasContábeis.DEPARAContasContábeisVisualizar"></class>
+				<class name="com.timp.test.MDR.CadastrosIRPJCSLL.DEPARAContasContábeis.DEPARAContasContábeisExcluir"></class>
+			
+			</classes>
+
+	</test> 
+	
+	
+	<test name="Livros Fiscais > Parametrização Do Livro Oficial">
+
+		<classes>
+			<!--  Livros Fiscais > Parametrização Do Livro Oficial  -->
+				
+				<class name="com.timp.test.MDR.LivrosFiscais.ParametrizaçãoDoLivroOficial.ParametrizaçãoDoLivroOficialCriar"></class>
+				<class name="com.timp.test.MDR.LivrosFiscais.ParametrizaçãoDoLivroOficial.ParametrizaçãoDoLivroOficialEditar"></class>
+				<class name="com.timp.test.MDR.LivrosFiscais.ParametrizaçãoDoLivroOficial.ParametrizaçãoDoLivroOficialVisualizar"></class>
+				<class name="com.timp.test.MDR.LivrosFiscais.ParametrizaçãoDoLivroOficial.ParametrizaçãoDoLivroOficialExcluir"></class>
+			
+			</classes>
+
+	</test> 
+	
+	<test name="Determinacao De Relevancia De Tarefa > Cadastro De Código De Regras">
+
+		<classes>
+			<!--  Determinacao De Relevancia De Tarefa > Cadastro De Código De Regras -->
+				
+				<class name="com.timp.test.MDR.DeterminacaoDeRelevanciaDeTarefa.CadastroDeCódigoDeRegras.CadastroDeCódigoDeRegrasCriar"></class>
+			</classes>
+
+	</test> 
+	
+	<test name="Determinacao Relevancia Tarefa Motivo Reabertura > Determinacion Relevancia Por Motivo">
+
+		<classes>
+			<!--  Determinacao Relevancia Tarefa Motivo Reabertura > Determinacion Relevancia Por Motivo -->
+			
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.DeterminacionRelevanciaPorMotivo.DeterminacionRelevanciaPorMotivoCriar"></class>
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.DeterminacionRelevanciaPorMotivo.DeterminacionRelevanciaPorMotivoEditar"></class>
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.DeterminacionRelevanciaPorMotivo.DeterminacionRelevanciaPorMotivoDetalles"></class>
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.DeterminacionRelevanciaPorMotivo.DeterminacionRelevanciaPorMotivoVisualizar"></class>
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.DeterminacionRelevanciaPorMotivo.DeterminacionRelevanciaPorMotivoExcluir"></class>
+				<class name="com.timp.test.MDR.DeterminacaoRelevanciaTarefaMotivoReabertura.DeterminacionRelevanciaPorMotivo.DeterminacionRelevanciaPorMotivoExcluirEmMassa"></class>
+				
+				</classes>
+	</test> 
+<!-- 	
+	<test name="Eventos e-Social > S1060 Ambientes de trabalho">
+
+		<classes>
+			
+			Eventos e-Social > S1060 Ambientes de trabalho 
+				
+				<class name="com.timp.test.MDR.EventosESocial.S1060AmbientesDeTrablho.S1060AmbientesDeTrablhoCriar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1060AmbientesDeTrablho.S1060AmbientesDeTrablhoEditar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1060AmbientesDeTrablho.S1060AmbientesDeTrabalhoFiltroID"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1060AmbientesDeTrablho.S1060AmbientesDeTrablhoExcluir"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1060AmbientesDeTrablho.S1060AmbientesDeTrablhoExcluirMassa"></class>
+		
+		</classes>
+		
+	</test> 
+	
+	<test name="Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Aquisição">
+
+		<classes>
+			 Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Aquisição 
+			
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250Aquisição.S1250AquisiçãoCriar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250Aquisição.S1250AquisiçãoEditar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250Aquisição.S1250AquisiçãoExcluir"></class>
+			
+			</classes>
+		
+	</test>
+	
+	<test name="Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Aquisição Toltal">
+
+		<classes>
+	
+			 Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Aquisição Toltal 
+				
+				
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250AquisiçãoTotal.S1250AquisiçãoTotalCriar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250AquisiçãoTotal.S1250AquisiçãoTotalEditar"></class>
+				
+				</classes>
+	</test>
+	
+	<test name="Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Dados de eventos">
+
+		<classes>
+				
+			 Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Dados de eventos 
+				
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DadosdeEventos.S1250DadosdeEventoCriar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DadosdeEventos.S1250DadosdeEventoEditar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DadosdeEventos.S1250DadosdeEventoExcluir"></class>
+				
+			</classes>
+	
+	</test>
+	
+	<test name="Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Det Aquisição">
+
+		<classes>
+			 Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Det Aquisição 
+				
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DetAquisição.S1250DetAquisiçãoCriar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DetAquisição.S1250DetAquisiçãoEditar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DetAquisição.S1250DetAquisiçãoExcluir"></class>
+		</classes>
+	
+	</test>
+	
+	<test name="Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Det nota fiscal ">
+
+		<classes>
+			 Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Det nota fiscal 
+				
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DetNotaFiscal.S1250DetNotaFiscalCriar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DetNotaFiscal.S1250DetNotaFiscalEditar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DetNotaFiscal.S1250DetNotaFiscalExcluir"></class>
+		</classes>
+	
+	</test>	
+	
+	<test name="Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Det Processo Judicial ">
+
+		<classes>
+				
+			 Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Det Processo Judicial 
+			
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DetProcessoJudicial.S1250DetProcessoJudicialCriar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DetProcessoJudicial.S1250DetProcessoJudicialEditar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250DetProcessoJudicial.S1250DetProcessoJudicialExcluir"></class>
+		
+		</classes>
+	
+	</test>	
+	
+	<test name="Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Inf Proc Judicial ">
+
+		<classes>
+			 Eventos e-social > S1250 Aquisicao De Producao Rural > S1250 Inf Proc Judicial 
+				
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250InfProcJudicial.S1250InfProcJudicialCriar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250InfProcJudicial.S1250InfProcJudicialEditar"></class>
+				<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250InfProcJudicial.S1250InfProcJudicialExcluir"></class>
+		
+		</classes>
+	
+	</test>	
+	
+	<test name="Parametros Para Categoria De IRF ">
+
+		<classes>
+			 Parametros Para Categoria De IRF 
+				
+				<class name="com.timp.test.MDR.ParametrosParaCategoriaDeIRF.ParametrosParaCategoriaDeIRFCriar"></class>
+				<class name="com.timp.test.MDR.ParametrosParaCategoriaDeIRF.ParametrosParaCategoriaDeIRFEditar"></class>
+				<class name="com.timp.test.MDR.ParametrosParaCategoriaDeIRF.ParametrosParaCategoriaDeIRFVisualizar"></class>
+				<class name="com.timp.test.MDR.ParametrosParaCategoriaDeIRF.ParametrosParaCategoriaDeIRFDetalhes"></class>
+				<class name="com.timp.test.MDR.ParametrosParaCategoriaDeIRF.ParametrosParaCategoriaDeIRFExcluir"></class>
+				<class name="com.timp.test.MDR.ParametrosParaCategoriaDeIRF.ParametrosParaCategoriaDeIRFExcluirEmMasa"></class>
+				
+				
+		</classes>
+	
+	</test>		
+-->
+	
+	
+	
+	
+</suite> <!-- Suite -->

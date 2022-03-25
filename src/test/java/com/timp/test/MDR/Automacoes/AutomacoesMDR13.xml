@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+	<test name="TabelaMunicipiosIBGE">
+		<classes>
+			<!-- Tabelas Complementares para obrigaçoes acessorias > Tabela de municípios IBGE -->	
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaMunicipiosIBGE.TabelaMunicipioIBGECriar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaMunicipiosIBGE.TabelaMunicipioIBGEEditar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaMunicipiosIBGE.TabelaMunicipioIBGEDetalhes"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaMunicipiosIBGE.TabelaMunicipioIBGEVisualizar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaMunicipiosIBGE.TabelaMunicipioIBGEExcluir"></class>
+		</classes>
+	</test>
+	<test name="TabelaOutrosDebitos">
+		<classes>
+			<!-- Tabelas Complementares para obrigaçoes acessorias > Tabela de outros debitos -->	
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaOutrosDebitos.TabelaOutrosDebitosCriar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaOutrosDebitos.TabelaOutosDebitosEditar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaOutrosDebitos.TabelaOutrosDebitosDetalhes"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaOutrosDebitos.TabelaOutrosDebitosVisualizar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaOutrosDebitos.TabelaOutrosDebitosExcluir"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaOutrosDebitos.TabelaOutrosDebitosExcluirEmMassa"></class>
+		</classes>
+	</test>
+	<test name="TabelaReceitasCreditoFiscalAntecipado">
+		<classes>
+			<!-- Tabelas Complementares para obrigaçoes acessorias >Tabela de Receitas (Credito Fiscal Antecipado) -->	
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaReceitasCreditoFiscalAntecipado.TabelaReceitasCreditoFiscalAntecipadoCriar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaReceitasCreditoFiscalAntecipado.TabelaReceitasCreditoFiscalAntecipadoEditar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaReceitasCreditoFiscalAntecipado.TabelaReceitasCreditoFiscalAntecipadoDetalhes"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaReceitasCreditoFiscalAntecipado.TabelaReceitasCreditoFiscalAntecipadoVisualizar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaReceitasCreditoFiscalAntecipado.TabelaReceitasCreditoFiscalAntecipadoExcluir"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaReceitasCreditoFiscalAntecipado.TabelaReceitasCreditoFiscalAntecipadoExcluirEmMassa"></class>
+		</classes>
+	</test>
+	<test name="TabelaDaReceitasPermitidas">
+		<classes>
+			<!-- Tabelas Complementares para obrigaçoes acessorias >Tabela da Receitas permitidas -->	
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaDaReceitasPermitidas.TabelaReceitasPermitidasCriar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaDaReceitasPermitidas.TabelaReceitasPermitidasEditar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaDaReceitasPermitidas.TabelaReceitasPermitidasDetalhes"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaDaReceitasPermitidas.TabelaReceitasPermitidasVisualizar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaDaReceitasPermitidas.TabelaReceitasPermitidasExcluir"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaDaReceitasPermitidas.TabelaReceitasPermitidasExcluirEmMassa"></class>
+		</classes>
+	</test>
+	<test name="TabelaServicos">
+		<classes>
+			<!-- Tabelas Complementares para obrigaçoes acessorias > Tabela de Serviços -->	
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaServicos.TabelaServicosCriar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaServicos.TabelaServicosEditar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaServicos.TabelaServicosDetalhes"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaServicos.TabelaServicosVisualizar"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaServicos.TabelaServicosExcluir"></class>
+			<class name="com.timp.test.MDR.TabelasComplementaresParaObrigaçoesAcessorias.TabelaServicos.TabelaServicosExcluirEmMassa"></class>
+		</classes>
+	</test>
+	<test name="TipoDeTributoContaContabil">
+		<classes>
+			<!-- Tipo de Tributo Conta Contabil -->	
+			<class name="com.timp.test.MDR.CadastroPISCONFINS.TipoDeTributoContaContabil.TipoDeTributoContaContabilCriar"></class>
+			<class name="com.timp.test.MDR.CadastroPISCONFINS.TipoDeTributoContaContabil.TipoDeTributoContaContabilEditar"></class>
+			<class name="com.timp.test.MDR.CadastroPISCONFINS.TipoDeTributoContaContabil.TipoDeTributoContaContabilExcluir"></class>
+		    <class name="com.timp.test.MDR.CadastroPISCONFINS.TipoDeTributoContaContabil.TipoDeTributoContaContabiExcluirMassa"></class>
+			
+		</classes>
+	</test>
+	<test name="InclusaoDeCamposMar">
+		<classes>
+			<!-- Valor Adicionado > Inclusao de Campos Mar -->	
+			<class name="com.timp.test.MDR.ValorAdicionado.InclusaoDeCamposMar.InclusaoDeCamposMarCriar"></class>
+			<class name="com.timp.test.MDR.ValorAdicionado.InclusaoDeCamposMar.InclusaoDeCamposMarEditar"></class>
+			<class name="com.timp.test.MDR.ValorAdicionado.InclusaoDeCamposMar.InclusaoDeCamposMarDetalhes"></class>
+			<class name="com.timp.test.MDR.ValorAdicionado.InclusaoDeCamposMar.InclusaoDeCamposMarVisualizar"></class>
+			<class name="com.timp.test.MDR.ValorAdicionado.InclusaoDeCamposMar.InclusaoDeCamposMarFiltrosAvançados"></class>
+			<class name="com.timp.test.MDR.ValorAdicionado.InclusaoDeCamposMar.InclusaoDeCamposMarExcluir"></class>
+		</classes>
+	</test>
+	<test name="S1060AmbientesDeTrablho">
+		<classes>
+			<!-- Eventos e-social > S1060 - Ambientes de Trabalho -->	
+			<class name="com.timp.test.MDR.EventosESocial.S1060AmbientesDeTrablho.S1060AmbientesDeTrablhoExcluirMassa"></class>
+		</classes>
+	</test>
+	<test name="S1200RemuneracaoDeTrabalhador">
+		<classes>
+			<!-- Eventos e-social > S1200 Remuneracao De Trabalhador... -->	
+			<class name="com.timp.test.MDR.EventosESocial.S1200RemuneracaoDeTrabalhador.S1200RemuneracaoDeTrabalhadorCriar"></class>
+			<class name="com.timp.test.MDR.EventosESocial.S1200RemuneracaoDeTrabalhador.S1200RemuneracaoDeTrabalhadorDetalhes"></class>
+			<class name="com.timp.test.MDR.EventosESocial.S1200RemuneracaoDeTrabalhador.S1200RemuneracaoDeTrabalhadorExcluir"></class>
+		</classes>
+	</test>
+	<test name="S1250AquisicaoDeProducaoRural">
+		<classes>
+			<!-- Eventos e-social > S1250 Aquisicao De Producao Rural -->	
+			<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250AquisicaoDeProducaoRuralCriar"></class>
+			<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250AquisicaoDeProducaoRuralEditar"></class>
+			<class name="com.timp.test.MDR.EventosESocial.S1250AquisicaoDeProducaoRural.S1250AquisicaoDeProducaoRuralExcluir"></class>
+		</classes>
+	</test>
+	<test name="ModeloDeApuracaoTP">
+		<classes>
+			<!-- Preço de Transferencia > Modelo De Apuraçao TP -->	
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ModeloDeApuracaoTP.ModeloDeApuracaoTPCriar"></class>
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ModeloDeApuracaoTP.ModeloDeApuracaoTPEditar"></class>
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ModeloDeApuracaoTP.ModeloDeApuracaoTPDetalhes"></class>
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ModeloDeApuracaoTP.ModeloDeApuracaoTPFiltroId"></class>
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ModeloDeApuracaoTP.ModeloDeApuracaoTPExcluir"></class>
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ModeloDeApuracaoTP.ModeloDeApuracaoTPExcluirEnMasa"></class>
+		</classes>
+	</test>
+	<test name="ParametrosModeloDeApuracaoTP">
+		<classes>
+			<!-- Preço de Transferencia > Parametros Modelo De Apuracao TP -->	
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ParametrosModeloDeApuracaoTP.ParametrosModeloDeApuracaoTPCriar"></class>
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ParametrosModeloDeApuracaoTP.ParametrosModeloDeApuracaoTPEditar"></class>
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ParametrosModeloDeApuracaoTP.ParametrosModeloDeApuracaoTPDetalhes"></class>
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ParametrosModeloDeApuracaoTP.ParametroModeloApuracaoTPFiltroID"></class>
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ParametrosModeloDeApuracaoTP.ParametrosModeloDeApuracaoTPExcluir"></class>
+			<class name="com.timp.test.MDR.PrecoDeTransferencia.ParametrosModeloDeApuracaoTP.ParametrosModeloDeApuracaoTPExcluirEmMasa"></class>
+		</classes>
+	</test> <!-- PruebaTestNG -->
+</suite> <!-- Suite -->
