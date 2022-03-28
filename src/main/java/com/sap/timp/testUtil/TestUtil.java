@@ -18,10 +18,10 @@ package com.sap.timp.testUtil;
 	import org.openqa.selenium.TakesScreenshot;
 	import org.openqa.selenium.WebElement;
 
-import com.sap.timp.base.TestBaseSteven;
+import com.sap.timp.base.TestBase;
 
 
-	public class TestUtil extends TestBaseSteven {
+	public class TestUtil extends TestBase {
 
 		public static long PAGE_LOAD_TIMEOUT = 300;
 		public static long IMPLICIT_WAIT = 30;
